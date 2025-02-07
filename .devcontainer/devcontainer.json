@@ -1,0 +1,10 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "features": {
+      "git": "latest",
+      "docker-in-docker": "latest",
+      "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+      }
+    }
+}
